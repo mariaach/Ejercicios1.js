@@ -10,14 +10,3 @@ let valorFuturo = calcularSaldoFuturo(valorPresente, interesMensual, anios);
 
 document.write(`El valor consignado: $${valorPresente.toFixed(2)}<br>`);
 document.write(`El valor futuro en ${anios} años es: $${valorFuturo.toFixed(2)}`);
-
-
-/*una persona deposita hoy al Banco cierta cantidad de dinero, donde le reconocen un
-interés del 2% mensual, capitalizado mensualmente. ¿Cuál será el saldo al cabo de 5 años?
-Formula a utilizar:
-Valor Futuro = Valor Presente * (1+intereses) ^meses
-Para solucionar el Ejercicio, se requiere desarrollar un algoritmo que permita conocer a una persona ¿Cuál será
-el saldo al cabo de 5 años?, si al depositar hoy cierta cantidad de dinero. Como resultado se debe imprimir en
-pantalla:
-Valor consignado: $XXXXX
-Valor futuro en 5 años: $XXXXXXX*/
